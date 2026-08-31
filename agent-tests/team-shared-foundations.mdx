@@ -1,0 +1,22 @@
+---
+id: team-shared-foundations-test
+agent: system-team-library
+kind: context-query
+queryRef:
+  id: team-shared-foundations
+  revision: 1
+testRef: team-shared-foundations-test-v1
+expectedIdentities: []
+expectedRelations: []
+expectedPaths: []
+expectedSchemaVersions: []
+resultBounds:
+  min: 0
+  max: 20
+budget:
+  maxContextItems: 20
+  maxTokens: 6000
+maxLatencyMs: 10000
+---
+
+Verifies that the managed Team Library query compiles and executes within its declared bounds.
