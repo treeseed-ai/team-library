@@ -4,10 +4,11 @@ id: team-cross-project-coordination
 bookId: team-operations
 slug: cross-project-coordination
 title: Cross-project Coordination
-summary: How agents coordinate across projects while preserving project-scoped write authority.
+summary: How authorized team projects coordinate while preserving project-scoped
+  write authority.
 status: published
 visibility: team
-order: 50
+order: 20
 contributors: []
 relatedBookIds: []
 relatedKnowledgeIds: []
@@ -17,13 +18,20 @@ relatedObjectiveIds: []
 relatedProposalIds: []
 relatedDecisionIds: []
 guaranteeIds: []
-audiences: { primary: [], secondary: [], excluded: [] }
+audiences:
+  primary: []
+  secondary: []
+  excluded: []
 capabilityIds: []
 routePatterns: []
 resourceTypes: []
 actionIds: []
-keywords: [coordination, projects, authority]
+keywords:
+  - coordination
+  - projects
+  - authority
 documentationUrls: []
 ---
 
 Read across authorized team projects to understand consequences. Keep every write and commit bound to the assignment owning project.
+
