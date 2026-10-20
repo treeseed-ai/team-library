@@ -1,7 +1,14 @@
 ---
-schemaVersion: treeseed.knowledge-page/v1
+schemaVersion: treeseed.knowledge-page/v2
 id: team-cross-project-coordination
-bookId: team-operations
+projectId: 203a6a35-7323-4357-a357-703701d56b3c
+bookRef:
+  store: treedx
+  model: book
+  id: team-operations
+  path: books/team-operations.md
+  revision: 1
+  digest: sha256:2ce361ae9edd2477effb09676fe4c5c1587409ff5abf0fcbe5d30f4a30fa7d20
 slug: cross-project-coordination
 title: Cross-project Coordination
 summary: How authorized team projects coordinate while preserving project-scoped
@@ -9,6 +16,7 @@ summary: How authorized team projects coordinate while preserving project-scoped
 status: published
 visibility: team
 order: 20
+groupIds: []
 contributors: []
 relatedBookIds: []
 relatedKnowledgeIds: []
@@ -34,4 +42,3 @@ documentationUrls: []
 ---
 
 Read across authorized team projects to understand consequences. Keep every write and commit bound to the assignment owning project.
-
